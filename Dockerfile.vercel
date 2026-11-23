@@ -13,8 +13,8 @@ COPY pages/ ./pages/
 COPY assets/ ./assets/
 COPY app/ ./app/
 COPY config/app.example.php ./config/app.example.php
-COPY server/vercel-apache.conf /etc/apache2/conf-available/bar-college-vercel.conf
-RUN a2enconf bar-college-vercel && mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
+COPY server/vercel-apache.conf /etc/apache2/sites-available/000-default.conf
+RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 ENV APP_ENV=production
 EXPOSE 80
 CMD ["apache2-foreground"]
