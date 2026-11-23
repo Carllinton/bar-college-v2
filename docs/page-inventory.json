@@ -1,0 +1,182 @@
+[
+  {
+    "file": "Admin/accounts.php",
+    "title": "Accounts",
+    "role": "Administrator",
+    "purpose": "Search records and delete unreferenced records."
+  },
+  {
+    "file": "Admin/account-create.php",
+    "title": "Create account",
+    "role": "Administrator",
+    "purpose": "Validate and create a new account."
+  },
+  {
+    "file": "Admin/account-edit.php",
+    "title": "Edit account",
+    "role": "Administrator",
+    "purpose": "Update an existing account."
+  },
+  {
+    "file": "Admin/students.php",
+    "title": "Students",
+    "role": "Administrator",
+    "purpose": "Search records and delete unreferenced records."
+  },
+  {
+    "file": "Admin/student-create.php",
+    "title": "Create student",
+    "role": "Administrator",
+    "purpose": "Validate and create a new student."
+  },
+  {
+    "file": "Admin/student-edit.php",
+    "title": "Edit student",
+    "role": "Administrator",
+    "purpose": "Update an existing student."
+  },
+  {
+    "file": "Admin/subjects.php",
+    "title": "Subjects",
+    "role": "Administrator",
+    "purpose": "Search records and delete unreferenced records."
+  },
+  {
+    "file": "Admin/subject-create.php",
+    "title": "Create subject",
+    "role": "Administrator",
+    "purpose": "Validate and create a new subject."
+  },
+  {
+    "file": "Admin/subject-edit.php",
+    "title": "Edit subject",
+    "role": "Administrator",
+    "purpose": "Update an existing subject."
+  },
+  {
+    "file": "Admin/programs.php",
+    "title": "Programs",
+    "role": "Administrator",
+    "purpose": "Search records and delete unreferenced records."
+  },
+  {
+    "file": "Admin/program-create.php",
+    "title": "Create program",
+    "role": "Administrator",
+    "purpose": "Validate and create a new program."
+  },
+  {
+    "file": "Admin/program-edit.php",
+    "title": "Edit program",
+    "role": "Administrator",
+    "purpose": "Update an existing program."
+  },
+  {
+    "file": "Admin/sections.php",
+    "title": "Sections",
+    "role": "Administrator",
+    "purpose": "Search records and delete unreferenced records."
+  },
+  {
+    "file": "Admin/section-create.php",
+    "title": "Create section",
+    "role": "Administrator",
+    "purpose": "Validate and create a new section."
+  },
+  {
+    "file": "Admin/section-edit.php",
+    "title": "Edit section",
+    "role": "Administrator",
+    "purpose": "Update an existing section."
+  },
+  {
+    "file": "Admin/schedules.php",
+    "title": "Schedules",
+    "role": "Administrator",
+    "purpose": "Search records and delete unreferenced records."
+  },
+  {
+    "file": "Admin/schedule-create.php",
+    "title": "Create schedule",
+    "role": "Administrator",
+    "purpose": "Validate and create a new schedule."
+  },
+  {
+    "file": "Admin/schedule-edit.php",
+    "title": "Edit schedule",
+    "role": "Administrator",
+    "purpose": "Update an existing schedule."
+  },
+  {
+    "file": "index.php",
+    "title": "Sign in",
+    "role": "Public",
+    "purpose": "Authenticate existing admin and student accounts."
+  },
+  {
+    "file": "Admin/admin-dashboard.php",
+    "title": "Administrator overview",
+    "role": "Administrator",
+    "purpose": "Show live counts, latest requests, and registration shortcuts."
+  },
+  {
+    "file": "student/student-dashboard.php",
+    "title": "Student overview",
+    "role": "Student",
+    "purpose": "Show the signed-in student’s academic details and enrollment status."
+  },
+  {
+    "file": "student/my-profile.php",
+    "title": "My profile",
+    "role": "Student",
+    "purpose": "Display the signed-in student’s complete profile."
+  },
+  {
+    "file": "student/enroll.php",
+    "title": "Choose subjects",
+    "role": "Student",
+    "purpose": "Select program subjects and submit a pending enrollment."
+  },
+  {
+    "file": "student/my-enrollments.php",
+    "title": "My enrollments",
+    "role": "Student",
+    "purpose": "List own enrollment records and withdraw pending requests."
+  },
+  {
+    "file": "Admin/enrollment-requests.php",
+    "title": "Enrollment request directory",
+    "role": "Administrator",
+    "purpose": "List stored requests for registrar review."
+  },
+  {
+    "file": "Admin/enrollment-review.php",
+    "title": "Registrar enrollment review",
+    "role": "Administrator",
+    "purpose": "Inspect request details, approve valid requests, or remove reviewed pending requests."
+  },
+  {
+    "file": "Admin/enrollment-correct.php",
+    "title": "Correct pending enrollment",
+    "role": "Administrator",
+    "purpose": "Correct a pending student/subject selection and recalculate units."
+  },
+  {
+    "file": "pages/enrollment-record.php",
+    "title": "Printable enrollment record",
+    "role": "Student or administrator",
+    "purpose": "Render an ownership-checked enrollment record for printing."
+  },
+  {
+    "file": "pages/account-settings.php",
+    "title": "Account settings",
+    "role": "Student or administrator",
+    "purpose": "Verify current credentials and change the signed-in account’s password."
+  },
+  {
+    "file": "logout.php",
+    "title": "Sign out",
+    "role": "Authenticated action",
+    "purpose": "POST-only sign-out action, not a display page."
+  }
+]
